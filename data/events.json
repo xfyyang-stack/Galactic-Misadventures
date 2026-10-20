@@ -1,0 +1,2789 @@
+[
+  {
+    "id": "P01",
+    "title": {
+      "zh": "星际慈善抽奖",
+      "en": "Galactic Charity Lottery"
+    },
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "仙女座超市大促销，走过路过不要错过！-你被抽中参加超市慈善抽奖。",
+      "en": "The Andromeda Supermarket is running a galaxy-sized promotion. Step right up—you have been picked for its charity lucky draw!"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "试试运气：把手伸进抽奖箱",
+          "en": "Try your luck: reach into the raffle box"
+        },
+        "risky": false,
+        "effects": {
+          "luck": 3
+        },
+        "result": {
+          "zh": "你运气爆棚,一举抽中了头奖！",
+          "en": "Jackpot! Against all reasonable odds, you have won first prize."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "奖品什么的才不关心呢：放弃抽奖",
+          "en": "Who needs prizes? Skip the lucky draw"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 2,
+          "luck": 1
+        },
+        "result": {
+          "zh": "仙女座超市邀请你担任荣誉吉祥物。",
+          "en": "The Andromeda Supermarket invites you to become its honorary mascot."
+        }
+      }
+    ]
+  },
+  {
+    "id": "P02",
+    "title": {
+      "zh": "免费宇宙自助餐",
+      "en": "All-You-Can-Eat Nebula"
+    },
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一颗美食星球开放免费自助餐，仅供碳基生物参加。",
+      "en": "A planet famed for its cuisine is offering a free buffet—carbon-based lifeforms only."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "把盘子装满",
+          "en": "Fill your plate"
+        },
+        "risky": false,
+        "effects": {
+          "vitality": 3,
+          "rationality": -1
+        },
+        "result": {
+          "zh": "谁说没有免费的午餐？",
+          "en": "Who said there was no such thing as a free lunch?"
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "小口品尝并感谢厨师",
+          "en": "Taste politely and thank the chef"
+        },
+        "risky": false,
+        "effects": {
+          "vitality": 2,
+          "fame": 1
+        },
+        "result": {
+          "zh": "后厨窗口伸出了一只腕足，握手的触感让你想起深不见底的大海。",
+          "en": "A tentacle reaches out from the kitchen window to shake your hand. Its touch reminds you of the ocean’s darkest depths."
+        }
+      }
+    ]
+  },
+  {
+    "id": "P03",
+    "title": {
+      "zh": "银河人才秀",
+      "en": "Galactic Talent Show"
+    },
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {
+      "min_fame": 13
+    },
+    "tags": [
+      "social"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "全银河直播的选秀正在招募选手，报名条件是能发出声音-录音除外。",
+      "en": "A galaxy-wide talent show is recruiting contestants. The only requirement: make a sound. Recordings do not count."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "你从不错过表现的机会-上台表演",
+          "en": "Never one to miss the spotlight—get on stage"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 4,
+          "rationality": -1
+        },
+        "result": {
+          "zh": "评委称你的表演为后现代宇宙尖叫艺术。",
+          "en": "The judges call your act postmodern cosmic scream art."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "沉默是你的本能-坐在第一排鼓掌",
+          "en": "Silence is your nature—applaud from the front row"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 1,
+          "luck": 1
+        },
+        "result": {
+          "zh": "你简直是节奏大王！-鼓掌的节奏被制作成节目主题曲。",
+          "en": "What a master of rhythm! Your applause becomes the show’s theme song."
+        }
+      }
+    ]
+  },
+  {
+    "id": "P04",
+    "title": {
+      "zh": "外星温泉",
+      "en": "Interstellar Hot Springs"
+    },
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "你发现一颗布满温泉的星球，泉水据说可以修复任何长途旅行造成的疲惫。",
+      "en": "You discover a planet of hot springs said to cure every inconvenience of long-distance travel."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "享受温泉",
+          "en": "Take a long soak"
+        },
+        "risky": false,
+        "effects": {
+          "vitality": 4
+        },
+        "result": {
+          "zh": "你觉得焕然一新。",
+          "en": "You feel like a brand-new lifeform."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "潜入温泉底部",
+          "en": "Dive to the bottom of the hot spring"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 3,
+          "vitality": 1
+        },
+        "result": {
+          "zh": "你发现了一种全新物种，它们能发出“阿瓜阿瓜”的声音。",
+          "en": "You discover an entirely new species. Its members communicate by shouting “Agua, agua!”"
+        }
+      }
+    ]
+  },
+  {
+    "id": "P05",
+    "title": {
+      "zh": "失物招领处",
+      "en": "Lost and Found in Space"
+    },
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "近日，空间站失物招领处宣布无人认领的包裹可以免费领走。",
+      "en": "The space station’s lost-and-found has just announced that unclaimed parcels are free for the taking."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "趁机捞一把-挑走最闪亮的包裹",
+          "en": "Make the most of it—take the shiniest parcel"
+        },
+        "risky": false,
+        "effects": {
+          "luck": 3,
+          "fame": -1
+        },
+        "result": {
+          "zh": "果然物超所值，但你总感觉耳边隐隐传来某人的怨念。",
+          "en": "Quite the bargain. Still, you can almost hear a stranger grumbling in your ear."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "还是算了吧-帮助寻找失主",
+          "en": "Better not—help find the rightful owner"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 3
+        },
+        "result": {
+          "zh": "今年的“星际好公民”奖非你莫属！",
+          "en": "This year’s Interstellar Good Citizen Award has your name written all over it."
+        }
+      }
+    ]
+  },
+  {
+    "id": "P06",
+    "title": {
+      "zh": "友好文明欢迎日",
+      "en": "Friendly Planet Day"
+    },
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "某个文明正庆祝欢迎所有外来者的节日，向你递上了一顶花环。",
+      "en": "A friendly civilisation celebrates visitors and offers you a ceremonial wreath."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "加入欢迎仪式",
+          "en": "Join the ceremony"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 3
+        },
+        "result": {
+          "zh": "欢迎舞蹈一共十四小时，这颗星球上的所有人都记住了你的舞步。",
+          "en": "The welcome dance lasts fourteen hours. By the end, everyone on the planet knows your moves."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "学习他们的语言",
+          "en": "Learn their language"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 2,
+          "fame": 1
+        },
+        "result": {
+          "zh": "经过3个小时，你学会了他们的第一句问候语：“请勿食用月亮。”",
+          "en": "After three hours, you master your first local greeting: “Please do not eat the moon.”"
+        }
+      }
+    ]
+  },
+  {
+    "id": "P07",
+    "title": {
+      "zh": "绝对安全的捷径",
+      "en": "Perfectly Safe Shortcut"
+    },
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "导航系统发现一条新路线，上面写着“绝对安全（大概）”。",
+      "en": "Your navigator discovers a new route labelled “Absolutely Safe (Probably).”"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "走捷径",
+          "en": "Take the shortcut"
+        },
+        "risky": false,
+        "effects": {
+          "luck": 2,
+          "vitality": 2
+        },
+        "result": {
+          "zh": "你提前2分钟抵达了目的地，足够一些文明进行一万次演化呢！",
+          "en": "You arrive two minutes early—enough time for some civilisations to evolve ten thousand times over!"
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "记录新航路",
+          "en": "Document the route"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 3
+        },
+        "result": {
+          "zh": "你向星际导航APP提交了新路线，标题叫“可能是路”。",
+          "en": "You submit the route to an interstellar navigation app under the title “Possibly a Road.”"
+        }
+      }
+    ]
+  },
+  {
+    "id": "P08",
+    "title": {
+      "zh": "宇宙幸运饼干",
+      "en": "Fortune Cookie of the Cosmos"
+    },
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [
+      "absurd"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "路边自动售货机掉出一块饼干，上面写着“今天我会被吃掉”。",
+      "en": "A vending machine drops a fortune cookie that reads: “Today, I will be eaten.”"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "相信它的预言-直接吃掉饼干",
+          "en": "Trust the prophecy—eat the cookie"
+        },
+        "risky": false,
+        "effects": {
+          "luck": 3,
+          "rationality": -1
+        },
+        "result": {
+          "zh": "饼干预言自己会被吃掉。结果正确，准确率百分之百。",
+          "en": "The cookie predicts it will be eaten. Its accuracy is now 100%."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "分析它的预测模型",
+          "en": "Analyse the model"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 3,
+          "luck": -1
+        },
+        "result": {
+          "zh": "你发现所谓预测模型只是一张便利贴。",
+          "en": "The prediction model turns out to be a sticky note."
+        }
+      }
+    ]
+  },
+  {
+    "id": "N01",
+    "title": {
+      "zh": "K8 酒馆",
+      "en": "K8 Space Bar"
+    },
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "你来到 K8 酒馆，机械服务生递来一张无法读懂的酒水单。",
+      "en": "At K8 Space Bar, a robot waiter presents a menu written in an impossible alphabet."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "点一杯普通饮料-谨慎是星际旅行的保命法则",
+          "en": "Order an ordinary drink—caution keeps a space traveller alive"
+        },
+        "risky": false,
+        "effects": {
+          "vitality": 2
+        },
+        "result": {
+          "zh": "这杯饮料没有试图与你交谈，已经是重大进步。",
+          "en": "Your drink does not try to talk to you. A wonderful start."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "试试今日特调",
+          "en": "Try the house special"
+        },
+        "risky": false,
+        "effects": {
+          "luck": 2,
+          "rationality": -2
+        },
+        "result": {
+          "zh": "你看见了第四种基色，可惜回家后完全讲不清。",
+          "en": "You see a fourth primary colour. Explaining it later proves difficult."
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "每种都来一杯",
+          "en": "Order everything"
+        },
+        "risky": false,
+        "effects": {
+          "vitality": -2,
+          "fame": 3
+        },
+        "result": {
+          "zh": "全酒馆为你欢呼，包括医务室。",
+          "en": "The entire bar cheers you on, including the medical bay."
+        }
+      }
+    ]
+  },
+  {
+    "id": "N02",
+    "title": {
+      "zh": "会说话的陨石",
+      "en": "Talking Meteorite"
+    },
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [
+      "absurd"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一块陨石路过，请求你帮它纠正宇宙学家对其出生地的错误描述。",
+      "en": "A passing meteorite asks you to correct cosmologists’ wildly inaccurate account of where it was born."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "认真和它交朋友",
+          "en": "Make friends with it"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": -2,
+          "fame": 2
+        },
+        "result": {
+          "zh": "陨石称你是“唯一懂石头情绪的人”。",
+          "en": "The rock calls you the only person who understands mineral feelings."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "牵头成立“陨石保护协会”",
+          "en": "Lead the campaign to establish the Meteorite Protection Society"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": -1,
+          "luck": 2
+        },
+        "result": {
+          "zh": "陨石的命也是命！",
+          "en": "Meteorite lives matter, too!"
+        }
+      }
+    ]
+  },
+  {
+    "id": "N03",
+    "title": {
+      "zh": "时间旅行优惠券",
+      "en": "Time Travel Coupon"
+    },
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {
+      "min_rationality": 17
+    },
+    "tags": [
+      "science"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "叩叩！一位推销员向你赠送可返回昨天的八折优惠券。",
+      "en": "Knock, knock! A salesperson hands you a 20%-off coupon for a trip back to yesterday."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "立刻使用",
+          "en": "Use it immediately"
+        },
+        "risky": false,
+        "effects": {
+          "luck": 3,
+          "vitality": -2
+        },
+        "result": {
+          "zh": "你成功回到了过去，却发现余额没有一起重返昨天。",
+          "en": "You make it back to yesterday. Sadly, your bank balance does not."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "把优惠券转售",
+          "en": "Resell the coupon"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 2,
+          "luck": -1
+        },
+        "result": {
+          "zh": "由于倒卖行为，你被公示惩罚三个月",
+          "en": "For reselling the coupon, you are publicly penalised for the next three months."
+        }
+      }
+    ]
+  },
+  {
+    "id": "N04",
+    "title": {
+      "zh": "行星辩论大会",
+      "en": "Planetary Debate"
+    },
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一颗行星邀请你公开讨论“太阳是不是只是比较大的台灯”。",
+      "en": "A planet invites you to publicly debate whether the sun is just a rather large desk lamp."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "坚持科学解释-如果你认为核聚变和灯泡是一样的话…",
+          "en": "Defend science—unless you think nuclear fusion and a light bulb are the same thing…"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 3,
+          "fame": -2
+        },
+        "result": {
+          "zh": "你说服了评委，却没说服现场的十二万盏灯。",
+          "en": "You convince the judges, but not the 120,000 lamps in attendance."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "迎合观众-太阳是烧煤油的！",
+          "en": "Tell the crowd what it wants to hear—the sun runs on kerosene!"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 3,
+          "rationality": -2
+        },
+        "result": {
+          "zh": "观众高喊你的名字，太阳拒绝发表评论。",
+          "en": "The crowd chants your name. The sun declines to comment."
+        }
+      }
+    ]
+  },
+  {
+    "id": "N05",
+    "title": {
+      "zh": "机器人哲学家",
+      "en": "Robot Philosopher"
+    },
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {
+      "min_rationality": 14
+    },
+    "tags": [
+      "science"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一台机器人正在思考自己究竟是不是微波炉。",
+      "en": "A robot philosopher wonders whether it is secretly a microwave."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "是或不是，这是个问题-进行辩论",
+          "en": "To be or not to be—enter the debate"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 3,
+          "vitality": -1
+        },
+        "result": {
+          "zh": "辩论持续十小时，你承认还是机器人的大脑比较好用。",
+          "en": "After ten hours of debate, you admit the robot has the more useful brain."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "微波炉可没有幽默感-教它讲笑话",
+          "en": "Microwaves have no sense of humour—teach it a joke"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 2,
+          "rationality": -1
+        },
+        "result": {
+          "zh": "它讲的第一个笑话是“人类”。",
+          "en": "Its very first joke is “humanity.”"
+        }
+      }
+    ]
+  },
+  {
+    "id": "N06",
+    "title": {
+      "zh": "三颗卫星的婚礼",
+      "en": "Wedding of Three Moons"
+    },
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [
+      "absurd"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "三颗卫星决定结婚，整个星系都在争论谁该坐主桌。",
+      "en": "Three moons decide to get married. The entire star system is arguing over who gets to sit at the head table."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "让我试试",
+          "en": "Let me handle this"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 3,
+          "vitality": -1
+        },
+        "result": {
+          "zh": "经过长达87年的讨论，你最终被指定为第二颗卫星的证婚人。",
+          "en": "After eighty-seven years of discussion, you are finally appointed the second moon’s wedding witness."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "应该搞个大圆桌",
+          "en": "Why not use one enormous round table?"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 2,
+          "luck": 1
+        },
+        "result": {
+          "zh": "这样所有人都坐得下了，宇宙和平",
+          "en": "At last, everyone has a seat. Peace returns to the cosmos."
+        }
+      }
+    ]
+  },
+  {
+    "id": "N07",
+    "title": {
+      "zh": "星际二手市场",
+      "en": "Galactic Flea Market"
+    },
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "星际集市声称这里的每件商品都“至少来自某个时代”。",
+      "en": "A flea market guarantees every item is from “at least one point in time”."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "买一件来历不明的东西",
+          "en": "Buy the mysterious object"
+        },
+        "risky": false,
+        "effects": {
+          "luck": 3,
+          "rationality": -2
+        },
+        "result": {
+          "zh": "你买到一只杯子，它坚称自己是宇宙皇帝。",
+          "en": "You buy a mug that insists it is emperor of the universe."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "精挑细选后决定什么也不买",
+          "en": "After careful consideration, buy absolutely nothing"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 2,
+          "fame": 1
+        },
+        "result": {
+          "zh": "众人惊呼：“你竟然看出了这是场骗局！”",
+          "en": "The crowd gasps: “You mean you spotted the scam?!”"
+        }
+      }
+    ]
+  },
+  {
+    "id": "N08",
+    "title": {
+      "zh": "宇宙广播采访",
+      "en": "Radio from Nowhere"
+    },
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {
+      "min_fame": 13
+    },
+    "tags": [
+      "social"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一个广播频道邀请你分享太空旅行经历，形式是当下最流行的一对一访谈。",
+      "en": "A radio station invites you to talk about your travels in the latest craze: a one-on-one interview."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "接受采访",
+          "en": "Go on air"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 4,
+          "rationality": -2
+        },
+        "result": {
+          "zh": "你说的话被剪辑成二十四小时循环的宇宙励志节目。",
+          "en": "Your words become a 24-hour motivational broadcast."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "拒绝出镜",
+          "en": "Decline the interview"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 2,
+          "fame": -1
+        },
+        "result": {
+          "zh": "主持人表示完全理解，却留下了一串失望的杂音。",
+          "en": "The host says they understand, then leaves behind a string of disappointed static."
+        }
+      }
+    ]
+  },
+  {
+    "id": "D01",
+    "title": {
+      "zh": "可疑虫洞",
+      "en": "Suspicious Wormhole"
+    },
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [
+      "science"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一条未经许可的虫洞出现在你面前，入口贴着“安全第一”的手写便签。",
+      "en": "An unlicensed wormhole appears with a handwritten sign: “Safety First”."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "接受挑战是冒险者的游戏-穿过虫洞",
+          "en": "Challenges are what adventurers live for—enter the wormhole"
+        },
+        "risky": true,
+        "success": {
+          "effects": {
+            "luck": 4
+          },
+          "result": {
+            "zh": "你平安抵达目的地，连鞋带都没有乱。",
+            "en": "You emerge unharmed, not even a shoelace displaced."
+          }
+        },
+        "failure": {
+          "effects": {
+            "vitality": -5
+          },
+          "result": {
+            "zh": "你差点被折成二维生物。",
+            "en": "You nearly get folded into a two-dimensional lifeform."
+          }
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "放弃也是一种智慧-绕路离开",
+          "en": "Knowing when to quit is wisdom—take the long way around"
+        },
+        "risky": false,
+        "effects": {
+          "vitality": -1
+        },
+        "result": {
+          "zh": "你平安离开，两个月后听说了一些失踪事件……",
+          "en": "You leave unharmed. Two months later, you begin hearing reports of mysterious disappearances…"
+        }
+      }
+    ]
+  },
+  {
+    "id": "D02",
+    "title": {
+      "zh": "黑市医疗",
+      "en": "Unlicensed Space Clinic"
+    },
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "你意外受伤了，最近边陲诊所的告示牌上写着“许可证正在申请中，大概率成功”。医生的八只手都举起了大拇指。",
+      "en": "You have been injured. A clinic on the frontier displays a sign reading “Licence application pending—approval highly likely.” All eight of the doctor’s hands are giving you a thumbs-up."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "死马当活马医-接受治疗",
+          "en": "Desperate times—accept the treatment"
+        },
+        "risky": true,
+        "success": {
+          "effects": {
+            "vitality": 5
+          },
+          "result": {
+            "zh": "手术很成功！如果忽视那些洗不掉的粘液的话。",
+            "en": "The surgery is a success! Provided you overlook the slime that will not wash off."
+          }
+        },
+        "failure": {
+          "effects": {
+            "vitality": -4
+          },
+          "result": {
+            "zh": "果然是庸医！医生表示并发症是“体验的一部分”。",
+            "en": "What a quack! The doctor insists that complications are “part of the experience.”"
+          }
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "我选择宇宙救护车-礼貌离开",
+          "en": "I’ll take the space ambulance instead—leave politely"
+        },
+        "risky": false,
+        "effects": {},
+        "result": {
+          "zh": "你保留了所有原厂零件。",
+          "en": "You leave with all your original parts."
+        }
+      }
+    ]
+  },
+  {
+    "id": "D03",
+    "title": {
+      "zh": "外星诈骗",
+      "en": "Alien Investment Scam"
+    },
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "某个外星投资顾问向你保证：只要投钱，财富就会以光速增长。",
+      "en": "An alien investment adviser assures you that your wealth will grow at the speed of light—as long as you put money in."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "全部梭哈",
+          "en": "Go all in"
+        },
+        "risky": true,
+        "success": {
+          "effects": {
+            "luck": 5
+          },
+          "result": {
+            "zh": "这次居然赚到了，连骗子都目瞪口呆。",
+            "en": "You somehow make a profit. Even the scammer looks shocked."
+          }
+        },
+        "failure": {
+          "effects": {
+            "luck": -4
+          },
+          "result": {
+            "zh": "你的投资被转化为一颗名为“教训”的小行星。",
+            "en": "Your investment becomes an asteroid named “Lesson”."
+          }
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "举报诈骗",
+          "en": "Report the scheme"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 1
+        },
+        "result": {
+          "zh": "监管部门感谢你，并表示调查预计于三个世纪后完成。",
+          "en": "Regulators thank you. The investigation will finish in three centuries."
+        }
+      }
+    ]
+  },
+  {
+    "id": "D04",
+    "title": {
+      "zh": "星际追债人",
+      "en": "Galactic Debt Collector"
+    },
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {
+      "max_fame": 8
+    },
+    "tags": [
+      "social"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一个追债人声称你欠了上一辈子的停车费。",
+      "en": "A collector claims you owe parking fees from a previous incarnation."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "装作认识对方",
+          "en": "Pretend to know them"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": -2,
+          "luck": 1
+        },
+        "result": {
+          "zh": "你们热烈拥抱，对方忘了自己为什么来。",
+          "en": "You embrace. They forget why they came."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "认真解释",
+          "en": "Argue your case"
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 1,
+          "fame": -2
+        },
+        "result": {
+          "zh": "你赢了逻辑辩论，却输了星际论坛的舆论战。",
+          "en": "You win the argument and lose the comment section."
+        }
+      }
+    ]
+  },
+  {
+    "id": "D05",
+    "title": {
+      "zh": "失控机器人",
+      "en": "Rogue Service Robot"
+    },
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {
+      "min_rationality": 14
+    },
+    "tags": [
+      "science"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一台服务机器人暴走，疯狂要求所有旅客填写满意度调查。",
+      "en": "A service robot goes rogue, forcing everyone to fill out a satisfaction survey."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "尝试修理它",
+          "en": "Try to repair it"
+        },
+        "risky": true,
+        "success": {
+          "effects": {
+            "rationality": 3
+          },
+          "result": {
+            "zh": "你修好了它，机器人给你打了五星好评。",
+            "en": "You repair it. The robot leaves you a five-star review."
+          }
+        },
+        "failure": {
+          "effects": {
+            "vitality": -4
+          },
+          "result": {
+            "zh": "机器人将你识别为“极差售后体验”。",
+            "en": "The robot marks you as “unsatisfactory after-sales service”."
+          }
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "假装没看见",
+          "en": "Run away"
+        },
+        "risky": false,
+        "effects": {
+          "vitality": -1
+        },
+        "result": {
+          "zh": "你成功逃跑，但调查表还是被无人机追着送来。",
+          "en": "You escape, but a drone delivers the survey anyway."
+        }
+      }
+    ]
+  },
+  {
+    "id": "D06",
+    "title": {
+      "zh": "真空餐厅",
+      "en": "Vacuum Restaurant"
+    },
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一家餐厅推出“真正的真空低温料理”，问题是店内也没有空气。",
+      "en": "A restaurant offers genuine vacuum cuisine. Unfortunately, there is no air."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "我付了钱的-坚持把饭吃完",
+          "en": "I paid for this—finish the meal"
+        },
+        "risky": false,
+        "effects": {
+          "vitality": -3,
+          "fame": 2
+        },
+        "result": {
+          "zh": "你创造了首位在真空中写餐厅点评的纪录。",
+          "en": "You become the first diner to review a meal in a vacuum."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "客户是上帝-发布差评",
+          "en": "The customer is always right—leave a bad review"
+        },
+        "risky": false,
+        "effects": {
+          "fame": -2,
+          "rationality": 1
+        },
+        "result": {
+          "zh": "老板回复：“客人，您真的懂空气吗？”",
+          "en": "The owner replies: “Do you even understand air?”"
+        }
+      }
+    ]
+  },
+  {
+    "id": "D07",
+    "title": {
+      "zh": "不受欢迎的广告",
+      "en": "Mandatory Galactic Advertising"
+    },
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {
+      "min_fame": 17
+    },
+    "tags": [
+      "social"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "银河广告局宣布你的脸非常适合宣传一种尚未发明的产品。",
+      "en": "The galactic ad agency claims your face is perfect for a product not yet invented."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "同意拍摄",
+          "en": "Accept the sponsorship"
+        },
+        "risky": false,
+        "effects": {
+          "fame": 3,
+          "rationality": -3
+        },
+        "result": {
+          "zh": "产品尚未上市，你的表情包已经破圈。",
+          "en": "The product does not exist. Your meme already does."
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "拒绝代言",
+          "en": "Refuse the deal"
+        },
+        "risky": false,
+        "effects": {
+          "fame": -1,
+          "rationality": 1
+        },
+        "result": {
+          "zh": "你错过了一次成为大明星的机会。",
+          "en": "You have missed your chance to become a galactic superstar."
+        }
+      }
+    ]
+  },
+  {
+    "id": "D08",
+    "title": {
+      "zh": "量子赌博",
+      "en": "Quantum Casino"
+    },
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [
+      "absurd"
+    ],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "量子赌场声称每一次投骰都同时赢和输，但最终结果由顾客自行承担。",
+      "en": "A quantum casino claims every roll is both a win and a loss, but customers are responsible for the final result."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "相信量子奇迹-玩一把",
+          "en": "Trust in quantum miracles—place a bet"
+        },
+        "risky": true,
+        "success": {
+          "effects": {
+            "luck": 8
+          },
+          "result": {
+            "zh": "今天概率站在你这边，赌场建议你尽快离开。",
+            "en": "Probability favours you. The casino asks you to leave."
+          }
+        },
+        "failure": {
+          "effects": {
+            "luck": -8
+          },
+          "result": {
+            "zh": "你同时输了与没输，系统只记录输了。",
+            "en": "You simultaneously win and lose. The house only records the loss."
+          }
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "脑海中浮现出一位吐舌头的白胡子老头，他说：“上帝从不掷骰子”-离开赌场",
+          "en": "A white-haired man sticking out his tongue appears in your mind: “God does not play dice.” Leave the casino."
+        },
+        "risky": false,
+        "effects": {
+          "rationality": 1
+        },
+        "result": {
+          "zh": "你获得了赌场能颁发的最珍贵奖品：清醒。",
+          "en": "You receive the casino’s rarest prize: common sense."
+        }
+      }
+    ]
+  },
+  {
+    "id": "F01",
+    "title": {
+      "zh": "宇宙慈善捐赠",
+      "en": "Galactic Relief Package"
+    },
+    "type": "forced",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "宇宙救济署随机选中了你的飞船。",
+      "en": "The intergalactic relief agency randomly selects your ship."
+    },
+    "result": {
+      "zh": "他们给你送来充足的营养补给，附赠宣传单。",
+      "en": "They deliver generous nutritional supplies, with a promotional leaflet thrown in."
+    },
+    "effects": {
+      "vitality": 3
+    }
+  },
+  {
+    "id": "F02",
+    "title": {
+      "zh": "意外中奖",
+      "en": "Accidental Jackpot"
+    },
+    "type": "forced",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一个自动售货机宣布你中了年度大奖。",
+      "en": "A vending machine announces that you have won its annual grand prize."
+    },
+    "result": {
+      "zh": "奖品是一盒幸运筹码，机器表示不接受退货。",
+      "en": "You receive a box of lucky tokens. No returns are accepted."
+    },
+    "effects": {
+      "luck": 4
+    }
+  },
+  {
+    "id": "F03",
+    "title": {
+      "zh": "无故走红",
+      "en": "Unexpected Celebrity"
+    },
+    "type": "forced",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "一段你打喷嚏的视频突然在银河系爆红。",
+      "en": "A recording of you sneezing goes viral across the galaxy."
+    },
+    "result": {
+      "zh": "粉丝称这是最纯粹的跨物种艺术表达。",
+      "en": "Fans call it a universal form of interspecies performance art."
+    },
+    "effects": {
+      "fame": 4
+    }
+  },
+  {
+    "id": "F04",
+    "title": {
+      "zh": "星球货币改革",
+      "en": "Planetary Currency Reform"
+    },
+    "type": "forced",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "你来到一个新的星系，当地货币以笑声作为计价单位。",
+      "en": "You arrive in a new star system where the local currency is measured in laughter."
+    },
+    "result": {
+      "zh": "你的冷笑话变得值钱，资产配置却彻底崩溃。",
+      "en": "Your jokes gain market value. Your financial plan does not."
+    },
+    "effects": {
+      "fame": 2,
+      "luck": -2
+    }
+  },
+  {
+    "id": "F05",
+    "title": {
+      "zh": "宇宙时间误差",
+      "en": "Cosmic Time Discrepancy"
+    },
+    "type": "forced",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "导航设备显示今天同时是昨天和星期九。",
+      "en": "Your navigation system reports that today is both yesterday and Fursday."
+    },
+    "result": {
+      "zh": "你花了半天修正时钟，终于确认自己还是迟到了。",
+      "en": "After hours of repairs, you confirm that you are still late."
+    },
+    "effects": {
+      "rationality": 2,
+      "vitality": -1
+    }
+  },
+  {
+    "id": "F06",
+    "title": {
+      "zh": "集体幻觉",
+      "en": "Mass Hallucination"
+    },
+    "type": "forced",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "附近星系的所有居民都坚称天空中多出了一颗方形太阳。",
+      "en": "Everyone in a nearby system insists a square sun has appeared."
+    },
+    "result": {
+      "zh": "你决定先接受这项设定，并忽略方形太阳的眨眼。",
+      "en": "You decide to accept the premise—and ignore the square sun winking at you."
+    },
+    "effects": {
+      "rationality": -2,
+      "luck": 2
+    }
+  },
+  {
+    "id": "F07",
+    "title": {
+      "zh": "小行星撞击",
+      "en": "Asteroid Collision"
+    },
+    "type": "forced",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "警报刚刚响起，一颗小行星已经撞上了飞船。",
+      "en": "The alarm has barely sounded when an asteroid slams into your ship."
+    },
+    "result": {
+      "zh": "你活下来了，可代价是什么呢？",
+      "en": "You survived. But at what cost?"
+    },
+    "effects": {
+      "vitality": -4
+    }
+  },
+  {
+    "id": "F08",
+    "title": {
+      "zh": "黑洞事故",
+      "en": "Black Hole Incident"
+    },
+    "type": "forced",
+    "polarity": "negative",
+    "weight": 0.3,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "航线偏差让飞船掠过黑洞的危险边缘。",
+      "en": "A navigation error sends your ship dangerously close to a black hole."
+    },
+    "result": {
+      "zh": "你差点被拉成意大利面，可投诉时官方把这称为“免费形体管理”。",
+      "en": "You nearly get stretched into spaghetti. When you complain, the authorities call it “complimentary body shaping.”"
+    },
+    "effects": {
+      "vitality": -8
+    }
+  },
+  {
+    "id": "F09",
+    "title": {
+      "zh": "宇宙网络暴力",
+      "en": "Galactic Internet Outrage"
+    },
+    "type": "forced",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "你在一张照片里把某颗星球的名字写错了一个字。",
+      "en": "You misspell a planet’s name in a photo caption."
+    },
+    "result": {
+      "zh": "十亿网友要求你公开道歉，其中一半其实不会拼字。",
+      "en": "A billion users demand an apology. Half cannot spell the name either."
+    },
+    "effects": {
+      "fame": -4
+    }
+  },
+  {
+    "id": "F10",
+    "title": {
+      "zh": "实验室爆炸",
+      "en": "Laboratory Explosion"
+    },
+    "type": "forced",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "附近一所实验室的实验结果突然变成了巨大的蘑菇云。",
+      "en": "A nearby laboratory produces an unusually large mushroom cloud."
+    },
+    "result": {
+      "zh": "你获得了宝贵的第一手科学知识，以及烧焦的袖口。",
+      "en": "You gain firsthand scientific knowledge and a scorched sleeve."
+    },
+    "effects": {
+      "vitality": -5,
+      "rationality": 1
+    }
+  },
+  {
+    "id": "F11",
+    "title": {
+      "zh": "意外获得学术荣誉",
+      "en": "Accidental Academic Honour"
+    },
+    "type": "forced",
+    "polarity": "positive",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "某学术会议误以为你是失踪的主旨演讲嘉宾。",
+      "en": "A conference mistakes you for its missing keynote speaker."
+    },
+    "result": {
+      "zh": "你临场发言十五分钟，听众认为这是一场突破性的沉默研究。",
+      "en": "Your improvised speech becomes a breakthrough in the study of silence."
+    },
+    "effects": {
+      "rationality": 3,
+      "fame": 1
+    }
+  },
+  {
+    "id": "F12",
+    "title": {
+      "zh": "星际流感",
+      "en": "Interstellar Flu"
+    },
+    "type": "forced",
+    "polarity": "negative",
+    "weight": 1.0,
+    "requirements": {},
+    "tags": [],
+    "min_day": 1,
+    "max_day": 7,
+    "description": {
+      "zh": "你感染了一种只在周四打喷嚏的星际流感。",
+      "en": "You catch a cosmic flu that only makes you sneeze on Thursdays."
+    },
+    "result": {
+      "zh": "医生说情况不严重，并将它命名为“疯狂星期四”。",
+      "en": "The doctor says it is nothing serious, and names the illness “Crazy Thursday.”"
+    },
+    "effects": {
+      "vitality": -3,
+      "luck": -1
+    }
+  },
+  {
+    "id": "P09",
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "tags": [
+      "social",
+      "absurd"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "行星孤儿院",
+      "en": "The Planetary Orphanage"
+    },
+    "description": {
+      "zh": "银河边缘有一家行星孤儿院，专门收留失去母恒星的小天体。",
+      "en": "At the edge of the galaxy stands an orphanage for planets that have lost their stars. "
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "帮它们寻找愿意收养的恒星",
+          "en": "Find a star willing to adopt them"
+        },
+        "risky": false,
+        "result": {
+          "zh": "一颗红矮星递来了申请表，还贴心地问孩子们怕不怕冷。",
+          "en": "A red dwarf submits an adoption form and thoughtfully asks whether the children mind the cold."
+        },
+        "effects": {
+          "fame": 3,
+          "vitality": 2
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "支持一颗小行星的太阳梦",
+          "en": "Support a little planet’s dream of becoming a sun"
+        },
+        "risky": false,
+        "result": {
+          "zh": "它感动得当场发光，院长认为你很会哄孩子。",
+          "en": "It glows with happiness; the headteacher calls you excellent with children."
+        },
+        "effects": {
+          "luck": 4,
+          "rationality": -2
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "替孤儿院修一座环形游乐场",
+          "en": "Build an orbital playground for the orphans"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你陪它们绕着秋千公转了一整个下午，运动量相当可观。",
+          "en": "You spend the afternoon orbiting the swings with them. Your fitness tracker files a formal complaint."
+        },
+        "effects": {
+          "vitality": 4,
+          "rationality": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "P10",
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "tags": [
+      "absurd"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "银河法定午睡日",
+      "en": "The Galactic Nap Holiday"
+    },
+    "description": {
+      "zh": "你抵达的恒星系正庆祝一年一度的午睡节。当地太阳宣布今天不营业，所有阴影暂时由市政厅人工发放。",
+      "en": "You arrive during the annual Galactic Nap Holiday. The local sun has taken the day off, and the city council is issuing shadows by hand."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "尊重传统，睡到自然醒",
+          "en": "Respect tradition and sleep until you wake"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你终于睡了个好觉，醒来时太阳仍在申请延长假期。",
+          "en": "You get a proper night’s sleep. The sun is still negotiating for an extra day off."
+        },
+        "effects": {
+          "vitality": 5,
+          "rationality": -1
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "研究太阳究竟请了什么假",
+          "en": "Investigate the sun’s leave request"
+        },
+        "risky": false,
+        "result": {
+          "zh": "研究结论：恒星也会倦怠。你把论文投给了《天体劳动关系学》。",
+          "en": "Your conclusion: stars can burn out in more ways than one. You submit it to the Journal of Stellar Labour Relations."
+        },
+        "effects": {
+          "rationality": 3,
+          "vitality": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "直播自己打呼噜",
+          "en": "Livestream your snoring"
+        },
+        "risky": false,
+        "result": {
+          "zh": "观众评价这是最有生命力的沉浸式行为艺术。",
+          "en": "Viewers hail your snoring as the most authentic immersive performance of the century."
+        },
+        "effects": {
+          "fame": 4,
+          "rationality": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "P11",
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "tags": [
+      "absurd"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "彗星快递",
+      "en": "Comet Express"
+    },
+    "description": {
+      "zh": "一颗彗星刹在你的舷窗外，递来一只没有寄件人的包裹。收件人一栏写着：“某个人”。",
+      "en": "A comet brakes outside your window and delivers a parcel with no sender. The recipient field reads: “You-know-who.”"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "既然写了名字，就签收吧",
+          "en": "Your name is on it. Sign for it"
+        },
+        "risky": false,
+        "result": {
+          "zh": "箱子里装着一盒过期前还有几百万年的好运。",
+          "en": "Inside is a box of good luck, with several million years left before its expiry date."
+        },
+        "effects": {
+          "luck": 4,
+          "vitality": 1
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "退回寄件人，并认真写明理由",
+          "en": "Return to sender with a detailed explanation"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你写了十七页退货说明。快递员第一次见到比宇宙说明书还啰嗦的东西。",
+          "en": "Your return form runs to seventeen pages. The courier has never encountered anything longer-winded than the Cosmic Manual."
+        },
+        "effects": {
+          "rationality": 2,
+          "fame": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "拆开再封上，赌它没人发现",
+          "en": "Open it and reseal it. Who would notice?"
+        },
+        "risky": true,
+        "success": {
+          "result": {
+            "zh": "你赌对了。盒子里还有一张写着“请继续保持侥幸心理”的纸条。",
+            "en": "You get away with it. There is even a note inside: “Please continue making terrible decisions.”"
+          },
+          "effects": {
+            "luck": 7,
+            "vitality": -1
+          }
+        },
+        "failure": {
+          "result": {
+            "zh": "万万没想到包裹有自我意识。它当场在快递群里曝光了你。",
+            "en": "The parcel turns out to be sentient. It immediately reports you to the entire courier network."
+          },
+          "effects": {
+            "luck": -3,
+            "vitality": -2,
+            "fame": -1
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "P12",
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "tags": [
+      "science"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "零重力海洋",
+      "en": "An Ocean Without Gravity"
+    },
+    "description": {
+      "zh": "一片海洋悬在两颗行星之间，鱼群向上游，水母向下落。",
+      "en": "An entire ocean floats between two planets. Fish swim upwards and jellyfish fall downwards. "
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "跳进去痛快游一圈",
+          "en": "Go for a proper swim"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你游得很开心，虽然花了半小时才找回“上”在哪里。",
+          "en": "It is wonderful exercise, though it takes half an hour to rediscover which direction is up."
+        },
+        "effects": {
+          "vitality": 4
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "向鱼群讲解重力理论",
+          "en": "Explain gravity to the fish"
+        },
+        "risky": false,
+        "result": {
+          "zh": "鱼群表示不接受审稿。",
+          "en": "The fish reject your paper without peer review."
+        },
+        "effects": {
+          "rationality": 3,
+          "vitality": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "摆出经典泳姿，接受采访",
+          "en": "Strike a heroic pose for the cameras"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你的照片登上了星际旅游首页。拍摄团队没有提醒你头顶正漂着一只水母。",
+          "en": "Your photo makes the cover of the Galactic Travel Guide. Nobody mentions the jellyfish above your head."
+        },
+        "effects": {
+          "fame": 5,
+          "vitality": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "P13",
+    "type": "optional",
+    "polarity": "positive",
+    "weight": 1.0,
+    "tags": [
+      "social",
+      "science"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "恒星合唱团",
+      "en": "Choir of the Stars"
+    },
+    "description": {
+      "zh": "几颗脉冲星组成了业余合唱团，节拍精确到纳秒，它们邀请你加入。",
+      "en": "A few pulsars have formed an amateur choir, keeping time to the nanosecond. They invite you to join. "
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "不管会不会唱，先上台再说",
+          "en": "Sing first. Worry about talent later"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你成功成为了合唱团唯一走调的天体，获得了空前的关注。",
+          "en": "You become the choir’s only member capable of singing off-key. The attention is unprecedented."
+        },
+        "effects": {
+          "fame": 4,
+          "rationality": -1
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "计算所有音符的频率",
+          "en": "Calculate every note’s frequency"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你证明了它们演奏的是一段尚未被发现的宇宙背景辐射。",
+          "en": "You prove that the composition is actually a previously undiscovered form of cosmic background radiation."
+        },
+        "effects": {
+          "rationality": 4,
+          "vitality": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "站在最后一排跟着摇摆",
+          "en": "Sway along in the back row"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你没有唱出一个音，却获得了一个极其治愈的下午。",
+          "en": "You do not sing a single note, but you leave feeling considerably more alive."
+        },
+        "effects": {
+          "vitality": 3,
+          "luck": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "N09",
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "tags": [
+      "social"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "不请自来的挑战者",
+      "en": "An Uninvited Challenger"
+    },
+    "description": {
+      "zh": "一名星际旅人突然拦住你，声称自己从未输过。他坚持要和你一决高下，比赛项目却由你决定。",
+      "en": "An interstellar traveller blocks your path, claiming never to have lost a contest. He insists on a duel and generously lets you choose the sport."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "比掰手腕",
+          "en": "Challenge him to arm wrestling"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你们掰断了三张桌子，没人记得是谁先赢的。",
+          "en": "You break three tables. Nobody remembers who won."
+        },
+        "effects": {
+          "vitality": -2,
+          "fame": 4
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "比谁能背出更多圆周率",
+          "en": "Compete at reciting digits of pi"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你背到小数点后第两千位。他说自己是倒着背的，比赛因此被迫中止。",
+          "en": "You reach the two-thousandth digit. He said he was reciting backwards and the competition had to be stopped as a result."
+        },
+        "effects": {
+          "rationality": 3,
+          "luck": -1
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "比谁先开口说话",
+          "en": "Hold a contest of silence"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你们互相瞪了六个小时。对方终于认输，因为他的母星快到站了。",
+          "en": "You stare at each other for six hours. He finally surrenders because his home planet is about to pass by."
+        },
+        "effects": {
+          "luck": 3,
+          "fame": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "N10",
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "tags": [
+      "science",
+      "social"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "未知星系的求救信号",
+      "en": "SOS from an Unknown Galaxy"
+    },
+    "description": {
+      "zh": "通讯器捕捉到一条来自未知星系的求救信号：“我们把自己的星球弄丢了。”第二条消息补充：“请不要告诉我们的母星。”",
+      "en": "Your receiver picks up a distress signal from an uncharted galaxy: “We have misplaced our planet.” A second message adds: “Please don’t tell our parent star.”"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "亲自赶去搜救",
+          "en": "Go there and join the search"
+        },
+        "risky": true,
+        "success": {
+          "result": {
+            "zh": "你找回了那颗走失的行星。它只是躲在一片星云后面闹别扭。",
+            "en": "You find the missing planet sulking behind a nebula. It comes home after a little encouragement."
+          },
+          "effects": {
+            "fame": 6,
+            "vitality": 1
+          }
+        },
+        "failure": {
+          "result": {
+            "zh": "你在导航途中迷失方向。失踪名单上的名字于是多了一个。",
+            "en": "You get lost on the way. The missing-person register now has an additional entry."
+          },
+          "effects": {
+            "vitality": -5,
+            "rationality": 2
+          }
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "远程分析引力数据",
+          "en": "Analyse the gravitational data remotely"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你确定行星没有消失，只是有人把坐标的正负号写反了。",
+          "en": "You discover the planet never vanished. Somebody entered the wrong sign in the coordinates."
+        },
+        "effects": {
+          "rationality": 3,
+          "fame": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "寄去一张星图和一封鼓励信",
+          "en": "Send a star chart and an encouraging letter"
+        },
+        "risky": false,
+        "result": {
+          "zh": "对方回复：“谢谢！我们现在至少知道自己丢在哪了。”",
+          "en": "They reply: “Thank you! At least we now know where we lost it.”"
+        },
+        "effects": {
+          "luck": 2,
+          "vitality": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "N11",
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "tags": [
+      "science"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "忒修斯的飞船",
+      "en": "The Ship of Theseus"
+    },
+    "description": {
+      "zh": "维修站告诉你，飞船的每一个零件都已被替换。工作人员问：“所以它还是原来的飞船吗？”",
+      "en": "The repair station has replaced every part of your ship. “Is it still the same ship?” "
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "从哲学角度认真回答",
+          "en": "Give a rigorous philosophical answer"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你写了八页论证。维修工只问你要不要买延保。",
+          "en": "You produce eight pages of reasoning. The mechanic asks whether you would like an extended warranty."
+        },
+        "effects": {
+          "rationality": 4,
+          "fame": -1
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "给飞船起一个新名字",
+          "en": "Give the ship a completely new name"
+        },
+        "risky": false,
+        "result": {
+          "zh": "新名字在当地社交媒体上爆红。飞船本人倒没发表意见。",
+          "en": "The new name goes viral. The ship itself declines to comment."
+        },
+        "effects": {
+          "fame": 3,
+          "luck": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "用旧零件再拼一艘",
+          "en": "Build another ship from the old parts"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你拥有了两艘飞船，外加两倍的维护成本。好消息是至少有一艘能睡觉。",
+          "en": "You now own two ships and twice the maintenance bills. On the bright side, one has somewhere comfortable to sleep."
+        },
+        "effects": {
+          "vitality": 3,
+          "rationality": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "N12",
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "tags": [
+      "absurd"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "宇宙静音键",
+      "en": "The Universe’s Mute Button"
+    },
+    "description": {
+      "zh": "你在舱壁上发现一个贴着“静音”的按钮。按下后，真空终于安静了下来。你不确定这有没有实际意义。",
+      "en": "You find a button labelled MUTE on the cabin wall. Pressing it makes the vacuum even quieter. You are unsure what this accomplishes."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "继续按，记录宇宙反应",
+          "en": "Keep pressing and record the results"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你写出了一份关于“静音对真空影响为零”的出色科幻小说。",
+          "en": "You produce an excellent science fiction demonstrating that muting a vacuum has precisely no measurable effect."
+        },
+        "effects": {
+          "rationality": 3,
+          "fame": -1
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "安安静静享受片刻",
+          "en": "Enjoy the peace and quiet"
+        },
+        "risky": false,
+        "result": {
+          "zh": "这是七天以来最安宁的五分钟。直到宇宙重启提示音响起。",
+          "en": "It is the most peaceful five minutes of your journey, right up until the universe plays its startup sound."
+        },
+        "effects": {
+          "vitality": 2,
+          "luck": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "把静音键当麦克风开演唱会",
+          "en": "Treat the button as a microphone and give a concert"
+        },
+        "risky": false,
+        "result": {
+          "zh": "宇宙没有听见，直播间里的观众却给你刷了很多礼物。",
+          "en": "The universe hears nothing. Your livestream audience, however, sends plenty of gifts."
+        },
+        "effects": {
+          "fame": 3,
+          "rationality": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "N13",
+    "type": "optional",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "tags": [
+      "science",
+      "absurd"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "明天的自传",
+      "en": "An Autobiography from Tomorrow"
+    },
+    "description": {
+      "zh": "一间小书店出售尚未写成的自传。店主把你的那本放到柜台上，封面写着：“作者本人尚不知情”。",
+      "en": "A tiny bookshop sells autobiographies that have not yet been written. Yours is waiting on the counter, subtitled: “The Author Has Not Been Informed.”"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "直接偷看最后一页",
+          "en": "Skip straight to the last page"
+        },
+        "risky": false,
+        "result": {
+          "zh": "最后一页只有一句话：“请勿相信最后一页。”你感觉这书很会做生意。",
+          "en": "The last page says only: “Do not trust the last page.” You admire the publisher’s business model."
+        },
+        "effects": {
+          "luck": 2,
+          "rationality": -2
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "检查作者、版本和出版时间",
+          "en": "Check the author, edition and publication date"
+        },
+        "risky": false,
+        "result": {
+          "zh": "书的出版时间是后天，但退货期限已经过去。至少你研究出了时间悖论的基本结构。",
+          "en": "The book comes out the day after tomorrow, but its return window has already closed. You learn a great deal about temporal paradoxes."
+        },
+        "effects": {
+          "rationality": 3,
+          "vitality": 1
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "替邻座陌生人的自传写序",
+          "en": "Write a foreword for a stranger’s life story"
+        },
+        "risky": false,
+        "result": {
+          "zh": "对方读完很感动，虽然你写的第一句是“我并不认识此人”。",
+          "en": "They are deeply moved, despite your opening line: “I have never met this person.”"
+        },
+        "effects": {
+          "fame": 2,
+          "vitality": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": "D09",
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 0.8,
+    "tags": [
+      "science"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "逆行的超新星",
+      "en": "The Supernova in Reverse"
+    },
+    "description": {
+      "zh": "一颗超新星突然开始倒放爆炸。碎片正往恒星内部飞回去，天文学家的论文也在一页页变白。",
+      "en": "A supernova abruptly begins exploding in reverse. Debris rushes back into the star, and astronomers watch their published papers turn blank."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "冲进爆炸中心，试试时间倒流",
+          "en": "Fly into the blast and try reversing time"
+        },
+        "risky": true,
+        "success": {
+          "result": {
+            "zh": "你从一场尚未发生的爆炸里完好归来，还顺便捡回了几年前丢掉的体力。",
+            "en": "You return unharmed from an explosion that has not happened yet, and somehow recover years of lost stamina."
+          },
+          "effects": {
+            "vitality": 6,
+            "rationality": 2
+          }
+        },
+        "failure": {
+          "result": {
+            "zh": "你把自己折进了时间轴的夹缝里。出来时连疼痛都比你早到三分钟。",
+            "en": "You get folded into a crease in the timeline. Your pain arrives three minutes before you do."
+          },
+          "effects": {
+            "vitality": -7
+          }
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "撤离并把观测数据带走",
+          "en": "Retreat with the observation data"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你逃得比光还快——至少事故报告是这么写的。",
+          "en": "You escape faster than light, or so the incident report claims."
+        },
+        "effects": {
+          "vitality": -1,
+          "rationality": 2
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "打开直播，标题写“宇宙正在撤回消息”",
+          "en": "Livestream it: “The Universe Is Unsending a Message”"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你火了，但评论区开始争论爆炸究竟算不算剧透。",
+          "en": "You go viral. The comment section debates whether an explosion in reverse counts as a spoiler."
+        },
+        "effects": {
+          "fame": 3,
+          "luck": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "D10",
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 1.0,
+    "tags": [
+      "absurd"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "吞食影子的行星",
+      "en": "The Planet That Eats Shadows"
+    },
+    "description": {
+      "zh": "你在一颗没有夜晚的行星登陆。当地居民温馨提示：这里的土地会吃掉影子，。",
+      "en": "You land on a planet with no nighttime. The locals warn you that the ground eats shadows."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "把自己的影子抢回来",
+          "en": "Wrestle your shadow back"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你赢了，影子却坚称自己只是暂时休假。",
+          "en": "You win, although your shadow claims it was merely taking a short holiday."
+        },
+        "effects": {
+          "vitality": -3,
+          "rationality": 3
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "试着解释影子不是食物",
+          "en": "Explain that shadows are not edible"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你给出了一套精彩的光学论证。大地礼貌地吃掉了最后一页。",
+          "en": "You deliver a brilliant lecture on optics. The ground politely eats the final page of your notes."
+        },
+        "effects": {
+          "rationality": 4,
+          "luck": -2
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "把影子留给它，自己去晒太阳",
+          "en": "Leave the shadow behind and catch some sun"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你忽然轻松了许多。医生说这是因为终于不用背负自己的阴影。",
+          "en": "You feel strangely lighter. The doctor attributes it to no longer carrying your own shadow."
+        },
+        "effects": {
+          "vitality": 4,
+          "fame": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "D11",
+    "type": "optional",
+    "polarity": "negative",
+    "weight": 0.85,
+    "tags": [
+      "absurd",
+      "science"
+    ],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "宇宙鲸鱼打喷嚏",
+      "en": "A Cosmic Whale Sneezes"
+    },
+    "description": {
+      "zh": "一头与星云一样大的鲸鱼从你的航路上游过，打了个喷嚏。三颗卫星因此下起了雨，气象台坚持称这是局部阵雨。",
+      "en": "A whale the size of a nebula swims across your route and sneezes. Rain begins falling on three moons. The weather service calls it “isolated showers”."
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "zh": "撑起护盾，替附近的小飞船挡一挡",
+          "en": "Raise your shield to protect nearby ships"
+        },
+        "risky": true,
+        "success": {
+          "result": {
+            "zh": "你挡住了冲击波，还收到了来自七个星系的感谢信。",
+            "en": "You hold back the shock wave and receive thank-you notes from seven star systems."
+          },
+          "effects": {
+            "fame": 6
+          }
+        },
+        "failure": {
+          "result": {
+            "zh": "护盾一秒就碎了。好在你的飞船现在被免费清洗得很彻底。",
+            "en": "Your shield shatters in a second. On the bright side, your ship has never been cleaner."
+          },
+          "effects": {
+            "vitality": -6
+          }
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "zh": "立即驶进最近的陨石阴影",
+          "en": "Take cover behind the nearest asteroid"
+        },
+        "risky": false,
+        "result": {
+          "zh": "你平安躲过喷嚏，顺便完成了一次天然的水疗。",
+          "en": "You avoid the blast and enjoy an unexpected spa treatment."
+        },
+        "effects": {
+          "vitality": 2,
+          "rationality": -1
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "zh": "拍下来，配文“宇宙过敏季来了”",
+          "en": "Post the footage: “Cosmic Allergy Season Is Here”"
+        },
+        "risky": false,
+        "result": {
+          "zh": "鲸鱼突然有了自己的粉丝后援会。你成了第一位被鲸鱼认证的娱乐记者。",
+          "en": "The whale acquires an enormous fan club. You become the first entertainment reporter officially endorsed by a whale."
+        },
+        "effects": {
+          "fame": 4,
+          "luck": -2
+        }
+      }
+    ]
+  },
+  {
+    "id": "F13",
+    "type": "forced",
+    "polarity": "positive",
+    "weight": 1.15,
+    "tags": [],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "银河免费体检",
+      "en": "Galactic Free Health Check"
+    },
+    "description": {
+      "zh": "你被随机选中参加一项免费体检。扫描仪称你缺乏叶绿素，医生只好承认机器把你误判成了盆栽。",
+      "en": "You are randomly selected for a free health check. The scanner reports a chlorophyll deficiency. The doctor admits it has mistaken you for a houseplant."
+    },
+    "result": {
+      "zh": "诊所补偿了一大包营养补给，还附赠《常见盆栽护理手册》。你决定先留着。",
+      "en": "The clinic compensates you with a generous supply of nutrients and a booklet on houseplant care. You decide to keep both."
+    },
+    "effects": {
+      "vitality": 5,
+      "rationality": -1
+    }
+  },
+  {
+    "id": "F14",
+    "type": "forced",
+    "polarity": "positive",
+    "weight": 1.0,
+    "tags": [],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "失踪的星期八",
+      "en": "The Missing Eighth Day"
+    },
+    "description": {
+      "zh": "星际天文台宣布找回了一个被日历遗漏的星期八。所有人被要求自行决定该如何使用这一天。",
+      "en": "The Interstellar Observatory announces the recovery of an eighth weekday lost from the calendar. Everyone may spend it however they wish."
+    },
+    "result": {
+      "zh": "你把额外的时间全部拿来休息。宇宙没有意见，甚至还帮你关了闹钟。",
+      "en": "You spend the extra time resting. The universe raises no objections and even turns off your alarm."
+    },
+    "effects": {
+      "vitality": 3,
+      "rationality": 2
+    }
+  },
+  {
+    "id": "F15",
+    "type": "forced",
+    "polarity": "positive",
+    "weight": 1.0,
+    "tags": [],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "宇宙随机夸夸",
+      "en": "A Random Compliment from the Cosmos"
+    },
+    "description": {
+      "zh": "银河公共频道突然宣布，你被评为“年度最值得鼓掌的路人”。你连报名表都没填过。",
+      "en": "The galaxy-wide public channel announces that you have won “Most Applause-Worthy Passer-by of the Year”. You never even entered."
+    },
+    "result": {
+      "zh": "周围的星球开始鼓掌。你以为这只是广播特效，直到你的飞船也拍起了手。",
+      "en": "Nearby planets begin applauding. You assume it is a broadcast effect, until your ship starts clapping too."
+    },
+    "effects": {
+      "fame": 3,
+      "luck": 2
+    }
+  },
+  {
+    "id": "F16",
+    "type": "forced",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "tags": [],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "宇宙坍缩预警（误报）",
+      "en": "Universe Collapse Warning (False Alarm)"
+    },
+    "description": {
+      "zh": "宇宙所有频道突然播出红色警报：“预计三十秒后全面坍缩。”你刚准备写遗言，警报就被撤回了。",
+      "en": "Every channel in the universe flashes a red alert: “Total collapse in thirty seconds.” Just as you begin drafting your last words, the announcement is withdrawn."
+    },
+    "result": {
+      "zh": "官方解释是有人把烤面包机接进了宇宙预警系统。你庆幸地松了口气，并开始怀疑这个宇宙的运维水平。",
+      "en": "Officials explain that someone connected a toaster to the universal warning system. You are relieved, though your confidence in cosmic maintenance has suffered."
+    },
+    "effects": {
+      "rationality": -2,
+      "luck": 2
+    }
+  },
+  {
+    "id": "F17",
+    "type": "forced",
+    "polarity": "neutral",
+    "weight": 1.0,
+    "tags": [],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "全银河翻译故障",
+      "en": "The Great Galactic Translation Glitch"
+    },
+    "description": {
+      "zh": "星际翻译系统发生故障，把每一句“祝你好运”都翻译成了“我要求单挑”。外交部门已经忙了八个小时。",
+      "en": "The galactic translation network malfunctions, rendering every “Good luck” as “I challenge you to a duel.” Diplomats have been busy for eight hours."
+    },
+    "result": {
+      "zh": "你编写了一份紧急词典。问题得到解决，但仍有人坚持觉得单挑比较有诚意。",
+      "en": "You compile an emergency phrasebook. The crisis passes, though some civilisations still consider a duel the sincerest form of encouragement."
+    },
+    "effects": {
+      "rationality": 3,
+      "fame": -2
+    }
+  },
+  {
+    "id": "F18",
+    "type": "forced",
+    "polarity": "negative",
+    "weight": 0.9,
+    "tags": [],
+    "requirements": {},
+    "min_day": 1,
+    "max_day": 7,
+    "title": {
+      "zh": "银河高温假",
+      "en": "Galactic Heatwave"
+    },
+    "description": {
+      "zh": "银河平均气温异常上升，各地恒星纷纷否认自己调高了温度。你飞船里的冰箱率先宣布罢工。",
+      "en": "The galaxy is experiencing an alarming rise in temperature. Every star denies turning up the heat. Your ship’s refrigerator goes on strike."
+    },
+    "result": {
+      "zh": "你靠着最后一块冰坚持了一整天。它最终融化时，舱内举行了简短而庄严的告别仪式。",
+      "en": "You survive the day with one last ice cube. When it finally melts, the crew holds a brief but dignified memorial service."
+    },
+    "effects": {
+      "vitality": -2,
+      "rationality": -1
+    }
+  },
+  {
+    "id": "F19",
+    "type": "forced",
+    "polarity": "negative",
+    "weight": 0.2,
+    "tags": [],
+    "requirements": {},
+    "min_day": 4,
+    "max_day": 7,
+    "title": {
+      "zh": "黑洞古神的早餐",
+      "en": "Breakfast of the Black Hole God"
+    },
+    "description": {
+      "zh": "持续升高的银河气温唤醒了一尊沉睡千万年的古神。祂的本体是一颗黑洞，醒来第一句话是：“有什么吃的吗？”随后开始吞噬沿途星系的质量。",
+      "en": "Rising galactic temperatures awaken an ancient god after millions of years asleep. Its true form is a black hole. Its first words are, “Is there anything to eat?” It begins devouring the mass of neighbouring star systems."
+    },
+    "result": {
+      "zh": "祂吃掉了三团星云，对你的飞船却只咬了一小口，评价是“热量太低”。你活了下来，但不确定该不该感到荣幸。",
+      "en": "After swallowing three nebulae, it takes one bite of your ship and declares it “too low in calories”. You survive, uncertain whether to feel honoured."
+    },
+    "effects": {
+      "vitality": -7,
+      "rationality": -1
+    }
+  }
+]

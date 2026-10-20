@@ -1,0 +1,21 @@
+{
+  "max_days": 7,
+  "stat_max": 30,
+  "initial_stats": {"vitality": 16, "luck": 10, "fame": 10, "rationality": 10},
+  "talent_choices": 3,
+  "optional_choices": 3,
+  "forced_days": [3, 7],
+  "forced_chance": 0.2,
+  "polarity_order": ["positive", "neutral", "negative"],
+  "luck_bands": [
+    {"max": 7, "optional": [0.20, 0.25, 0.55], "forced": [0.20, 0.30, 0.50]},
+    {"max": 15, "optional": [0.30, 0.30, 0.40], "forced": [0.30, 0.30, 0.40]},
+    {"max": 23, "optional": [0.43, 0.30, 0.27], "forced": [0.40, 0.30, 0.30]},
+    {"max": 30, "optional": [0.55, 0.30, 0.15], "forced": [0.50, 0.30, 0.20]}
+  ],
+  "tag_bonuses": [
+    {"tag": "absurd", "requirements": {"max_rationality": 7}, "multiplier": 1.5},
+    {"tag": "science", "requirements": {"min_rationality": 14}, "multiplier": 1.5}
+  ],
+  "risk": {"base": 0.45, "slope": 0.025, "pivot": 12, "min": 0.20, "max": 0.85}
+}

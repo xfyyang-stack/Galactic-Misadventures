@@ -1,0 +1,152 @@
+[
+  {
+    "id": "T01",
+    "title": {
+      "zh": "宇宙蟑螂",
+      "en": "Cosmic Cockroach"
+    },
+    "description": {
+      "zh": "你活了下来，这似乎是宇宙的必然。至于为什么活着，你也想不明白。",
+      "en": "You survived. It seems the universe had no other choice. Why you're still alive, though, is anyone's guess — including yours."
+    },
+    "effects": {
+      "vitality": 5,
+      "rationality": -3
+    }
+  },
+  {
+    "id": "T02",
+    "title": {
+      "zh": "天生赌徒",
+      "en": "Born Gambler"
+    },
+    "description": {
+      "zh": "出生那天你就押中了自己的出生日期。",
+      "en": "You successfully bet on your own birthday before you were born."
+    },
+    "effects": {
+      "luck": 5,
+      "vitality": -3
+    }
+  },
+  {
+    "id": "T03",
+    "title": {
+      "zh": "全息偶像",
+      "en": "Holographic Idol"
+    },
+    "description": {
+      "zh": "全银河都认识你的脸，这不是理所当然吗？",
+      "en": "Everyone in the galaxy knows your face. As they should."
+    },
+    "effects": {
+      "fame": 5,
+      "rationality": -3
+    }
+  },
+  {
+    "id": "T04",
+    "title": {
+      "zh": "行走计算器",
+      "en": "A Walking Computer"
+    },
+    "description": {
+      "zh": "对你来说，理性之外的世界并不存在。硅基生命万岁！",
+      "en": "As far as you're concerned, nothing exists beyond reason. Long live silicon-based life!"
+    },
+    "effects": {
+      "rationality": 5,
+      "fame": -3
+    }
+  },
+  {
+    "id": "T05",
+    "title": {
+      "zh": "馊主意专家",
+      "en": "Bad Idea Specialist"
+    },
+    "description": {
+      "zh": "你的计划一般不靠谱，上帝却总站在你这边。",
+      "en": "Your plans rarely make sense, but somehow, God always takes your side."
+    },
+    "effects": {
+      "luck": 3,
+      "rationality": -1
+    }
+  },
+  {
+    "id": "T06",
+    "title": {
+      "zh": "社交发射器",
+      "en": "Social Transmitter"
+    },
+    "description": {
+      "zh": "就连劫持你的外星人，也愿意和你交换联系方式。",
+      "en": "Even extraterrestrial kidnappers ask for your contact details."
+    },
+    "effects": {
+      "fame": 3,
+      "luck": -1
+    }
+  },
+  {
+    "id": "T07",
+    "title": {
+      "zh": "反重力体质",
+      "en": "Gravity-Proof"
+    },
+    "description": {
+      "zh": "合格的星际旅者，懂得漂浮的最佳姿势。",
+      "en": "Every respectable interstellar traveler knows the optimal way to float."
+    },
+    "effects": {
+      "vitality": 3,
+      "fame": -1
+    }
+  },
+  {
+    "id": "T08",
+    "title": {
+      "zh": "过度思考者",
+      "en": "Professional Overthinker"
+    },
+    "description": {
+      "zh": "大脑已经连续加班七个星际年。",
+      "en": "Your brain has been working unpaid overtime for seven galactic years."
+    },
+    "effects": {
+      "rationality": 3,
+      "vitality": -1
+    }
+  },
+  {
+    "id": "T09",
+    "title": {
+      "zh": "意外网红",
+      "en": "Accidental Influencer"
+    },
+    "description": {
+      "zh": "一张模糊照片竟让你红遍四个星系。",
+      "en": "One blurry photo has made you famous in four solar systems."
+    },
+    "effects": {
+      "fame": 1,
+      "luck": 1
+    }
+  },
+  {
+    "id": "T10",
+    "title": {
+      "zh": "有氧大脑",
+      "en": "Aerobic Brain"
+    },
+    "description": {
+      "zh": "你同时拥有健康的身体和运作正常的大脑，实属罕见。",
+      "en": "A healthy body and a functioning brain. Apparently, that is rare."
+    },
+    "effects": {
+      "vitality": 1,
+      "rationality": 1
+    }
+  }
+]

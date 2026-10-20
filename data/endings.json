@@ -1,0 +1,172 @@
+[
+  {
+    "id": "E01",
+    "title": {
+      "zh": "宇宙尘埃",
+      "en": "Space Dust"
+    },
+    "description": {
+      "zh": "恭喜！你正式成为宇宙的一部分了。从物理学角度来看，这是一项伟大的成就。遗憾的是，你的旅行保险并不承认这种存在形式。",
+      "en": "Congratulations! You are now part of the universe in the most literal sense. Physicists call it a great achievement. Your travel insurance, unfortunately, calls it an exclusion."
+    },
+    "requirements": {
+      "max_vitality": 0
+    }
+  },
+  {
+    "id": "E02",
+    "title": {
+      "zh": "乐子邪神",
+      "en": "The Cosmic Jester"
+    },
+    "description": {
+      "zh": "你已经无法区分巧合与奇迹。好消息是，宇宙似乎也不能。毕竟，快乐才是宇宙的真理。",
+      "en": "You can no longer tell coincidence from miracle. Fortunately, neither can the universe. After all, happiness is the ultimate truth of the cosmos."
+    },
+    "requirements": {
+      "min_luck": 21,
+      "max_rationality": 8
+    }
+  },
+  {
+    "id": "E03",
+    "title": {
+      "zh": "不死不灭",
+      "en": "The Immortal"
+    },
+    "description": {
+      "zh": "超新星没能杀死你，黑洞也没能杀死你。你将在无限的时间里向着死亡坍缩。",
+      "en": "Neither a supernova nor a black hole could kill you. Now, with all eternity ahead, you slowly collapse towards death itself."
+    },
+    "requirements": {
+      "min_vitality": 26,
+      "vitality_lead": 10
+    }
+  },
+  {
+    "id": "E04",
+    "title": {
+      "zh": "银河大明星",
+      "en": "Galactic Superstar"
+    },
+    "description": {
+      "zh": "你的脸出现在数千颗星球的广告牌上，所有物种和星体都对着你尖叫。不过传播的主要是一张你吃饭时被拍到的糊照。",
+      "en": "Your face appears on billboards across thousands of planets. Every species—and even the stars themselves—screams at the sight of you. Unfortunately, the image going viral is a blurry photo of you eating lunch."
+    },
+    "requirements": {
+      "min_fame": 23
+    }
+  },
+  {
+    "id": "E05",
+    "title": {
+      "zh": "宇宙教主",
+      "en": "Cult Leader"
+    },
+    "description": {
+      "zh": "你随口说出“香蕉才是宇宙的答案”，三亿信徒立即宣布成立新宗教。你打算解释这只是个玩笑，但教会认为这正是神谕的一部分。",
+      "en": "You casually declare that bananas are the answer to the universe. Three hundred million followers establish a religion. When you explain it was a joke, they call your denial the second prophecy."
+    },
+    "requirements": {
+      "min_fame": 13,
+      "max_rationality": 9
+    }
+  },
+  {
+    "id": "E06",
+    "title": {
+      "zh": "宇宙真理研究员",
+      "en": "The Grand Theorist"
+    },
+    "description": {
+      "zh": "你写出了足以解释宇宙万物的统一理论。遗憾的是，论文足足有四万七千页，还没有任何期刊的投稿系统支持这么大的文件。",
+      "en": "You formulate a theory that explains everything in the universe. Unfortunately, the manuscript is forty-seven thousand pages long, and no academic submission portal accepts the attachment."
+    },
+    "requirements": {
+      "min_rationality": 21
+    }
+  },
+  {
+    "id": "E07",
+    "title": {
+      "zh": "幸运之子",
+      "en": "Fortune's Favourite"
+    },
+    "description": {
+      "zh": "你连续中了七次星际大奖，赌场已经把你的照片挂在门口，旁边写着“谢绝入内”。你说这只是一点运气，统计学界认为这是一种挑衅。",
+      "en": "You win seven galactic jackpots in a row. Casinos post your face beside NO ENTRY signs. You call it a little luck. Statisticians call it a personal attack."
+    },
+    "requirements": {
+      "min_luck": 21
+    }
+  },
+  {
+    "id": "E08",
+    "title": {
+      "zh": "薛定谔的幸存者",
+      "en": "Schrödinger's Survivor"
+    },
+    "description": {
+      "zh": "你以近乎失效的生命体征完成了全部旅程。医生称这不算医学奇迹，而算一次行政管理失误。总之，活下来就是胜利。",
+      "en": "You complete the journey with vital signs that are barely on speaking terms. Your doctor calls it less a medical miracle and more an administrative oversight. Still, survival is survival."
+    },
+    "requirements": {
+      "max_vitality": 9
+    }
+  },
+  {
+    "id": "E09",
+    "title": {
+      "zh": "星际透明人",
+      "en": "The Invisible Tourist"
+    },
+    "description": {
+      "zh": "你踏足了许多星球，没有人记得你来过。连自动监控都礼貌地跳过你的身影。你倒是乐得清静，毕竟没有人能向你推销保险。",
+      "en": "You visit dozens of worlds without anyone remembering you. Even security cameras politely overlook your presence. At least no salesperson can offer you interplanetary insurance."
+    },
+    "requirements": {
+      "max_fame": 12,
+      "min_rationality": 13
+    }
+  },
+  {
+    "id": "E10",
+    "title": {
+      "zh": "克苏鲁",
+      "en": "Cthulhu"
+    },
+    "description": {
+      "zh": "你已经停止尝试理解宇宙。奇怪的是，当你不再思考，一切似乎都顺利多了。但是星际哲学协会对此深表不安。",
+      "en": "You stop trying to understand the universe. Things immediately become easier. But the Interstellar Philosophy Association finds this development deeply upsetting."
+    },
+    "requirements": {
+      "max_rationality": 10
+    }
+  },
+  {
+    "id": "E11",
+    "title": {
+      "zh": "倒霉之王",
+      "en": "The Unluckiest Being"
+    },
+    "description": {
+      "zh": "你同时被陨石、鸟粪和自动售货机砸中，保险公司一致拒绝签约。你的倒霉程度已被学术界列为一种可以独立观察的自然现象。",
+      "en": "You are struck by a meteorite, an alien bird dropping and a vending machine in the same week. Insurers refuse coverage. Scientists begin classifying your misfortune as a natural phenomenon."
+    },
+    "requirements": {
+      "max_luck": 11
+    }
+  },
+  {
+    "id": "E12",
+    "title": {
+      "zh": "太阳系上班族",
+      "en": "Solar System Nine-to-Fiver"
+    },
+    "description": {
+      "zh": "你成功走过了七天，没有成神，没有出名，也没有被拉成意大利面。也许平凡的生活才是真正的幸福。",
+      "en": "You make it through seven days without becoming a god, a celebrity, or a strand of cosmic spaghetti. Perhaps an ordinary life really is the greatest happiness of all."
+    },
+    "requirements": {}
+  }
+]
